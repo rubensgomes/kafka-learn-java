@@ -1,7 +1,7 @@
 # Justification for This Project
 
-I created this playground project to learn Kafka.  More information about this project
-can be found at <https://developer.confluent.io/get-started/java/>
+I created this playground project to learn and experiment with Kafka.  More information about this project
+can be found at <https://developer.confluent.io/get-started/java/>.  I took the sample code found on Confluent Developer Java portal, and made some customizations (e.g., add SLF4J logging, used a matrix data structure for the event key/value pairs, and other minor changes.)
 
 ## Prerequisites
 
@@ -30,4 +30,4 @@ This project has the following pre-requisites:
 - cluster API secret : "pirfdTaGaAGmKIlMzbiPx4Y9R8czku7hqAaL3j9Jb5jn7h/ShxMeUnS47oDg9KXT"
 
 ---
-Rubens Gomes<rubens.s.gomes@gmail.com>
+[Rubens Gomes](https://rubensgomes.com/)
