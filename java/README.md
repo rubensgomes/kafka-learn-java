@@ -15,13 +15,14 @@ This project has the following pre-requisites:
 
 1. I have signed up for a Confluent Account, and then I created a Basic Kafka Cluster
    following instructions from <https://www.confluent.io/confluent-cloud/tryfree/>.
-   1.1 Notice that the Kafka Cluster is made available over the public Internet
 2. While creating a Kafka Cluster on Confluent Cloud I chose to use the "Azure" Cloud
 3. To facilitate easy identification of my cluster I named it "rubens_cluster"
 4. After the cluster was created and named, I create a topic named "rubens_topic"
    within my Kafka cluster.
 
 ### Confluent Cloud Kafka Cluster Key Settings
+
+Notice that the Kafka Cluster is made available over the public Internet
 
 - cluster name       : "rubens_cluster"
 - topic name         : "rubens_topic" with 1 partitions
