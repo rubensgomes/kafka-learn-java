@@ -9,7 +9,7 @@ This project has the following pre-requisites:
 
 - Java 11
 - Gradle
-- Kafka Cluster has been set up in Confluent Cloud
+- Kafka Cluster has been set up in a "default" environment in Confluent Cloud
 
 ## Kafka Cluster Set Up
 
@@ -24,11 +24,23 @@ This project has the following pre-requisites:
 
 Notice that the Kafka Cluster is made available over the public Internet
 
+- environment        : "default"
 - cluster name       : "rubens_cluster"
-- topic name         : "rubens_topic" with 1 partitions
+- topic name         : "rubens_topic" with 1 partition
 - bootstrap server   : "pkc-57jzz.southcentralus.azure.confluent.cloud:9092"
 - cluster API key    : "HV2ZKRSLDTK6YDCK"
 - cluster API secret : "pirfdTaGaAGmKIlMzbiPx4Y9R8czku7hqAaL3j9Jb5jn7h/ShxMeUnS47oDg9KXT"
+
+## BUILD
+
+The following commands may be used during gradle builds:
+
+```bash
+gradle clean
+gradle shadowJar
+gradle dependencies
+gradle build
+```
 
 ---
 [Rubens Gomes](https://rubensgomes.com/)

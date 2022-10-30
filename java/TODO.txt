@@ -1,0 +1,10 @@
+TODO Exercises:
+
+- Create multiple partitions for a topic (use confluent cli)
+- Use different keys in the message
+- Verify that messages with the same key always end up on the same partition
+- Create keys using integer numbers and modify the key serialized to use int
+- Create multiple brokers/partitions
+- Create consumer groups
+
+

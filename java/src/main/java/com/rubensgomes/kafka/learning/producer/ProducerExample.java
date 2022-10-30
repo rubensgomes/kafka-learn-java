@@ -56,7 +56,7 @@ public class ProducerExample
             String key = keyValue[0];
             String value = keyValue[1];
 
-            log.debug( "Submiting event to topic [{}] for user [{}] with item [{}]",
+            log.debug( "Submiting event to topic [{}] for key [{}] with value [{}]",
                        topic,
                        key,
                        value );
