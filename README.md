@@ -6,7 +6,7 @@ I created this project as a playground to learn and experiment with Kafka.
 
 ### Java Sample Code
 
-For Java sample producer/consumer code refer to [java folder](./java/README.md).
+For Java sample producer/consumer code refer to [APP.md](./APP.md).
 
 ### CLI Sample Code
 
