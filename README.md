@@ -1,6 +1,6 @@
-# Justification for This Project
+# kafka-learn-java
 
-I created this project as a playground to learn and experiment with Kafka.
+A Java playground project to learn and experiment with Kafka.
 
 ## Sample Projects
 
